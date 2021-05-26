@@ -12,7 +12,7 @@ type CellProps = Cell & {
 const Field: React.FunctionComponent<CellProps> = props => {
   const onClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    if (e.ctrlKey) {
+    if (e.ctrlKey || e.metaKey) {
       props.onCtrlClick();
     } else {
       props.onClick();
