@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #eee;
+  color: #444;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+code {
+  background-color: #ccc;
+  border-radius: 3px;
+  padding: 0.1rem 0.3rem;
+}
+
+button {
+  border: 1px solid #bbb;
+  background-color: #ccc;
+  border-radius: 3px;
+  color: #666;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 0 0.5em;
+}
+
+a:link,
+a:visited {
+  color: #444;
+}
